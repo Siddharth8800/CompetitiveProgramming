@@ -8,3 +8,9 @@ Given a string s, we've to find the minimum number of swaps required to convert 
   - K: no. of chars
   - string s
   - available chars
+
+## Weighted Job Scheduling (Time: O(long)) (Space: O(n))
+The time complexity of this code is optimized using Binary search to find the non-conflicting job `nc`. It can now fit under constraints 1 <= N <= 10<sup>6</sup>.
+Takes the following inputs:
+  - N: number of jobs
+  - In a loop: start time, end time and profit
