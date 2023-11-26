@@ -20,3 +20,7 @@ Finds a minimum number of platforms required to accommodate all the trains. This
 Takes the following input:
   - N: Number of trains
   - In a loop: arrival time and departure time of current train.
+
+## Ninja Pay (Greedy) (Time O(nlogn)) (Space(O(n)))
+This problem is very similar to greedy Knapsack, here we have two parameters just like Knapsack, Time and Loss, we have to minimize loss so just sorting the array on the basis of loss and picking jobs that has most loss first will not help, so we find the ratio of Time/Loss of a job, and sort by this ratio in ascending order and that our answer, the sequence to minimize loss.
+
