@@ -14,3 +14,9 @@ The time complexity of this code is optimized using Binary search to find the no
 Takes the following inputs:
   - N: number of jobs
   - In a loop: start time, end time and profit
+
+## Minimum Platforms (Greedy) (Time: O(nlogn)) (Space: O(1))
+Finds a minimum number of platforms required to accommodate all the trains. This is a greedy approach where we sort arrival and departure time arrays, and compare them to increment or decrement the platforms required.
+Takes the following input:
+  - N: Number of trains
+  - In a loop: arrival time and departure time of current train.
